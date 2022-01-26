@@ -38,9 +38,11 @@
         "vscode-kubernetes.minikube-path.linux": "/home/vscode/.vs-kubernetes/tools/minikube/linux-amd64/minikube"
     },
     "workbench.colorTheme": "Solarized Light",
-    "gitlens.mode.active": "zen",
     "tabnine.experimentalAutoImports": true,
     "window.zoomLevel": 1,
     "testExplorer.useNativeTesting": true,
-    "todo-tree.highlights.useColourScheme": true
+    "todo-tree.highlights.useColourScheme": true,
+    "workbench.editorAssociations": {
+        "*.html": "default"
+    }
 }

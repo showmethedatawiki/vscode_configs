@@ -60,5 +60,15 @@
 {
     "key": "ctrl+shift+q",
     "command": "workbench.action.toggleMaximizedPanel"
+},
+{
+    "key": "alt+a",
+    "command": "workbench.action.reloadWindow",
+    "when": "isDevelopment"
+},
+{
+    "key": "ctrl+r",
+    "command": "-workbench.action.reloadWindow",
+    "when": "isDevelopment"
 }
 ]

@@ -24,5 +24,17 @@
 			"import numpy as np", 
 			"from matplotlib import pyplot as plt"
 		]
+	},
+	"logging setup": {
+		"prefix": "logger", 
+		"body": ["LOG_FORMAT = '%(levelname)s %(asctime)s   - %(message)s'", 
+		"logging.basicConfig(filename='logger.log', level=logging.DEBUG, format=LOG_FORMAT, filemode='w')", 
+		"logger = logging.getLogger()"]
 	}
 }
+
+
+
+
+
+

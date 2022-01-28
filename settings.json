@@ -37,12 +37,17 @@
         "vscode-kubernetes.kubectl-path.linux": "/home/vscode/.vs-kubernetes/tools/kubectl/kubectl",
         "vscode-kubernetes.minikube-path.linux": "/home/vscode/.vs-kubernetes/tools/minikube/linux-amd64/minikube"
     },
-    "workbench.colorTheme": "Solarized Light",
+    "workbench.colorTheme": "Default Light+",
     "tabnine.experimentalAutoImports": true,
     "window.zoomLevel": 1,
     "testExplorer.useNativeTesting": true,
     "todo-tree.highlights.useColourScheme": true,
     "workbench.editorAssociations": {
         "*.html": "default"
-    }
+    },
+    "gitlens.codeLens.recentChange.enabled": false,
+    "gitlens.codeLens.authors.enabled": false,
+    "gitlens.currentLine.enabled": false,
+    "open-in-browser.default": "google-chrome",
+    "jupyter.sendSelectionToInteractiveWindow": true
 }
